@@ -250,7 +250,7 @@
             <br>
             <br>
             Email:
-            <a href="mailto:info@rm-schody.cz" target="_blank" alt="rm schody">info@rm-schody.cz</a>
+            <a href="mailto:info@lm-wooden.cz" target="_blank" alt="rm schody">info@lm-wooden.cz</a>
             <br>
             <br>
 
