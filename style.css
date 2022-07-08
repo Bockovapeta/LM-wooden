@@ -1,0 +1,536 @@
+*,::after,::before { box-sizing: border-box; }
+
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Merriweather', serif;
+    background-color: #f8fff2f1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body p {
+    padding: 0 2rem;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;   
+    color: #bbff01f1;
+}
+
+h2 {
+    padding: 0 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.fotka,
+.fotka a,
+.popisek,
+.popisek a,
+.paticka,
+.paticka a {
+    color: rgb(82, 36, 36);
+    font-size: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.kontakt a {
+    color:rgb(18, 39, 18);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #e1f0e1;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.fotogalerie ul li {
+    list-style-type: none;
+    color:#b1f514;
+}
+
+
+.uvod a,
+.typy a,
+.fotogalerie a {
+    color: #470d0df1;
+    text-shadow: 1px 1px 1px #b1f514;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.uvod a:hover,
+.typy a:hover,
+.fotogalerie a:hover {
+    color:#b1f514;
+    text-shadow: 1px 1px 1px #0f1402;
+}
+
+.fotogalerie img {
+    width: 100%;
+}
+
+
+.linka::after {
+    content: "";
+    background: #bbff01f1;
+    display: block;
+    height: 5px;
+    width: 90px;
+    position: relative;
+    right: 2rem;
+    margin-top: 1rem;
+}
+
+.autor::before {
+    content: "";
+    background: rgb(231, 229, 229);
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin:auto;
+    margin-bottom: 1rem;
+}
+
+/*hlavička*/
+
+.hlavicka {
+    padding: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(images/vinyl/IMG-20220303-WA0008.jpg);
+    background-size: cover;
+    
+    background-position: center;
+  
+}
+
+.hlavicka p {
+    text-shadow: 5px 5px 10px #032403;
+    font-weight:100;
+    font-size: 25px;
+}
+
+.hlavicka h1 {
+    text-shadow: 5px 5px 10px #063006;
+}
+
+
+.autor {
+    color: #bbff01f1;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px #063006;
+}
+
+/*menu*/
+
+.menu {
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 1rem 3rem;
+    margin:0;
+}
+
+.menu a {
+    color:#bbff01f1;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #032403;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.menu li {
+    border-bottom: 1px solid #470d0df1;
+    padding: 1rem 0;
+}
+
+.mini,
+.mini2 {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.foto {
+    position: relative;
+    line-height: 0;
+}
+
+.nadpis {
+    color: #070101f1;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:larger;
+}
+
+.box input[type="text"], .box input[type="email"], .box textarea {
+
+    background: rgb(210, 255, 151);
+    display: block;
+    text-align: center;
+    border: 2px solid #214252;
+    padding: 5px 3px;
+    width: 95%;
+    color: rgb(44, 26, 26);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #616655;
+    }
+
+.box {
+    margin-left: 2rem;
+}
+
+.box td {
+    display: inline;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, textarea:focus {
+
+    transition: 0.25s;
+    border: 2px solid;
+    background-color: rgb(255, 215, 104);
+
+}
+
+.box input[type="submit"] {
+
+    display: block;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    background-color: rgb(181, 255, 34);
+    border: 2px solid #214252;
+    padding: 10px 20px;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #616655;
+    font-weight: bold;
+}
+
+.box input[type="submit"]:hover {
+    background: rgb(255, 215, 104);
+    border: 2px solid;
+    transition: 0.4 s;
+    
+
+}
+
+
+/* Form result */
+.form-result{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.success {
+    background-color: #09f110;
+}
+
+.error {
+   background-color: #fd0404; 
+}
+
+
+
+/*
+.fotka {
+    width: 100%;
+    height: 100%;
+    bottom: -20px;
+    position:absolute;
+    font-size:large;
+    text-shadow: 1px 1px 3px #e3fae3;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(61, 45, 23);
+}
+*/
+/*patička*/
+
+.paticka {
+    background: linear-gradient(to bottom, rgb(231, 229, 229), white);
+    text-align: left;
+    padding-top:10px;
+
+}
+
+.paticka p {
+    margin:0;
+}
+
+
+
+
+/*verze pro tablet*/
+@media (min-width: 500px) and (max-width: 1000px) {
+
+        .mini,
+        .mini2 {
+            margin-bottom: 0;
+        }   
+        body {
+            background-color: #ffefe0f1;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li {
+            border: none;
+            border-top:1px solid #470d0df1;
+            border-bottom:1px solid #470d0df1;
+        }
+
+        .menu li:nth-child(2),
+        .menu li:nth-child(3),
+        .menu li:nth-child(4),
+        .menu li:nth-child(5) {
+            border-left: 1px solid #470d0df1;
+        }
+
+        .menu a {
+            margin: 0 1rem;
+            text-align: center;
+        }
+
+        .obrazek {
+            position: relative;
+        }
+
+        .obrazek .popisek {
+            right:0;
+            position: absolute;
+            bottom: 5px;
+            color: white;
+        }
+        
+        .obrazek a,
+        .fotka a {
+            color: white;
+        }
+
+
+        .foto {
+            position: relative;
+            width: 50%;
+            display: flex;
+            max-height: 600px;
+        }
+
+        .kontejner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .foto p {
+            position: absolute;
+            color: white;
+            bottom:0;
+            opacity: 0;
+        }
+
+        .telo {
+            background-color: white;
+
+        }
+
+        .box input[type="text"], .box input[type="email"], .box textarea {
+            display: block;
+            width: 100%;
+        }
+
+        .box td {
+            display: flex;
+        }
+        
+
+/*
+        .fotka {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            padding-top: 40%;
+            margin:0;
+            text-shadow: none;
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: rgb(255, 254, 254);
+        }
+
+        .fotka:hover {
+            transition: 1s;
+            transform: translate(10px 30px);
+            background-color: rgb(75, 59, 59);
+            opacity: 0.7;
+            font-size: 14px;
+        }
+
+     */  
+    }
+
+/*verze pro PC*/
+@media (min-width:1001px) {
+
+        .telo {
+            max-width: 1200px;
+            margin: -3rem auto;
+            background: white;
+        }
+
+        body {
+            background-color: #bbff01f1;
+        }
+
+        .autor {
+            margin: 2rem 0;
+        }
+
+        .menu {
+            text-align: left;
+            float: left;
+            height: 400px;
+        }
+
+        .uvod {
+            padding-top: 2rem;
+        }
+
+        .proc p {
+            padding-right: 200px;
+        }
+
+        .videt p,
+        .videt h2 {
+            padding-left: 200px;
+        }
+
+        .kontejner {
+            display: flex;
+            flex-wrap: wrap;
+            margin:0;
+            padding-top:10px;
+        }
+
+        .foto {
+            position: relative;
+            width: 33.33%;
+            display: flex;
+            max-height: 600px;
+        }
+
+        .foto p {
+            position: absolute;
+            color: white;
+            bottom:0;
+            opacity: 0;
+        }
+
+        .obrazek {
+            position: relative;
+        }
+
+        .obrazek img {
+            height: 600px;
+            width:100%; 
+        }
+
+        .obrazek .popisek {
+            right:0;
+            position: absolute;
+            bottom: 5px;
+            color: white;
+            padding: 10px;
+            margin:0;
+        }
+            
+        .popisek a,
+        .fotka a {
+            color: white;
+        }
+
+     
+
+
+    /*
+        .fotka {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            padding-top: 40%;
+            margin:0;
+            text-shadow: none;
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: rgb(255, 254, 254);
+        }
+
+        .fotka:hover {
+            transition: 1s;
+            transform: translate(10px 30px);
+            background-color: rgb(75, 59, 59);
+            opacity: 0.7;
+            font-size: 14px;
+        }
+*/
+        .paticka {
+            max-width: 1200px;
+            margin: auto;
+            margin-top:10px;
+            padding-top: 20px;
+        }
+          
+        .mini2 {
+            padding-bottom:30px;
+        }
+   
+        .foto img {
+            border: 1px rgb(105, 99, 64) solid;
+        }
+
+
+
+        .box input[type="text"], .box input[type="email"], .box textarea {
+            display: block;
+            width: 100%;
+        }
+
+        .box td {
+            display: flex;
+        }
+
+        .vlevo {
+            display: block;
+            width: 50%;
+        }
+.kontakt {
+    display: flex;
+}
+
+        .vpravo {
+            display: block;
+            float: right;
+            margin-top: -100px;
+        }
+      
+        
+
+    }
