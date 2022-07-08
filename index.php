@@ -235,7 +235,7 @@
         <p class="mini"> Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku
         </p>
 -->
- <!--
+            <!--
             <p>
                 <b>Miroslav Režňák </b><br>
                 
@@ -246,15 +246,15 @@
 
 
                 Mobil: <a href="tel:+420602722109">+420 602 722 109 </a> -->
-                <br>
-                <br>
-                <br>
-                Email:
-                <a href="mailto:info@rm-schody.cz" target="_blank" alt="rm schody">info@rm-schody.cz</a>
-                <br>
-                <br>
+            <br>
+            <br>
+            <br>
+            Email:
+            <a href="mailto:info@rm-schody.cz" target="_blank" alt="rm schody">info@rm-schody.cz</a>
+            <br>
+            <br>
 
-                <!--
+            <!--
                 <b>R&M schody</b> <br>
                 SNP 4746 <br>
                 76005 Zlín
@@ -263,12 +263,12 @@
                 DIČ: CZ7312204163
 
                 -->
-                <br>
-                Navštivte moji stránku na Facebooku
-                <a href="https://www.facebook.com/RM-schody-103984128914912" target="_blank"> <img src="facebook-2429746__480.webp" width="35px" height="35px">
-                </a>
-                <br>
-                <br>
+            <br>
+            Navštivte moji stránku na Facebooku
+            <a href="https://www.facebook.com/RM-schody-103984128914912" target="_blank"> <img src="facebook-2429746__480.webp" width="35px" height="35px">
+            </a>
+            <br>
+            <br>
             </p>
         </div>
         <!--
